@@ -1,49 +1,47 @@
-<!DOCTYPE html>
-<!--
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
 <html>
-    <head>
-        <!--
-        Customize this policy to fit your own app's needs. For more guidance, see:
-            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
-        Some notes:
-            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
-            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-                * Enable inline JS: add 'unsafe-inline' to default-src
-        -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
-        <meta name="format-detection" content="telephone=no">
-        <meta name="msapplication-tap-highlight" content="no">
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-        <title>Hello World</title>
-    </head>
-    <body>
-        <div class="app">
-        <h1>Apache Cordova</h1>
-        <div id="deviceready" class="blink">
-            <p class="event listening">Connecting to Device</p>
-            <p class="event received">Device is Ready</p>
+	<head>
+	  <title>Flapper News</title>
+	  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+	  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.min.js"></script>
+	  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.js"></script>
+	  <script src="app.js"></script>
+	</head>
+	<body ng-app="flapperNews">
+	  
+	  <div class="row">
+	    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+	    <div ui-view></div>
+	    </div>
+	  </div>
+		
+    <script type="text/ng-template" id="home.html">
+      <div class="page-header">
+        <h1>Manifesto</h1>
+      </div>
+
+      <div ng-repeat="manifesto in manifestos | orderBy:'completion'">
+      	<img src="{{manifesto.image}}" style="height: 40px; width: 40px;" />
+        <span style="font-size:20px; margin-left:10px;">
+        	{{manifesto.name}}
+        </span>
+        <span class="glyphicon glyphicon-thumbs-up"
+          ng-click="incrementHappiness(manifesto)"></span>
+        	{{manifesto.happiness}}
+      </div>
+
+      <form ng-submit="addManifesto()"
+        style="margin-top:30px;">
+        <h3>Add a new manifesto</h3>
+
+        <div class="form-group">
+          <input type="text"
+            class="form-control"
+            placeholder="Name"
+            ng-model="name"></input>
         </div>
-        </div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-    </body>
+        <button type="submit" class="btn btn-primary">Create</button>
+      </form>
+    </script>
+
+	</body>
 </html>

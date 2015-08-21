@@ -12,3 +12,109 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 
 2015-08-22 01:11:09.588 HelloWorld[1362:12694] Resetting plugins due to page load.
 2015-08-22 01:11:10.307 HelloWorld[1362:12694] Finished load of: file:///Users/chi6rag/Library/Developer/CoreSimulator/Devices/68FF5141-4B42-43BD-AA85-1F13571FD96F/data/Containers/Bundle/Application/3A8BABF6-EFA5-4314-8242-35778182B482/HelloWorld.app/www/index.html
+2015-08-22 01:13:28.225 HelloWorld[1460:13842] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/chi6rag/Library/Developer/CoreSimulator/Devices/68FF5141-4B42-43BD-AA85-1F13571FD96F/data/Containers/Data/Application/508C70C1-1754-4FD0-86C0-E6FAFB676847/Library/Cookies/Cookies.binarycookies
+2015-08-22 01:13:28.333 HelloWorld[1460:13842] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-22 01:13:28.334 HelloWorld[1460:13842] Multi-tasking -> Device: YES, App: YES
+2015-08-22 01:13:28.371 HelloWorld[1460:13842] Unlimited access to network resources
+2015-08-22 01:13:28.386 HelloWorld[1460:13842] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-08-22 01:13:28.627 HelloWorld[1460:13842] Resetting plugins due to page load.
+2015-08-22 01:13:30.276 HelloWorld[1460:13842] Finished load of: file:///Users/chi6rag/Library/Developer/CoreSimulator/Devices/68FF5141-4B42-43BD-AA85-1F13571FD96F/data/Containers/Bundle/Application/57F3F90F-FD78-43E3-8D8E-7708F694C71F/HelloWorld.app/www/index.html#/home
+2015-08-22 01:15:38.705 HelloWorld[1460:13842] Resetting plugins due to page load.
+2015-08-22 01:15:38.778 HelloWorld[1460:13842] Failed to load webpage with error: The requested URL was not found on this server.
+2015-08-22 01:15:40.775 HelloWorld[1460:13842] Resetting plugins due to page load.
+2015-08-22 01:15:40.777 HelloWorld[1460:13842] Failed to load webpage with error: The requested URL was not found on this server.
+2015-08-22 01:18:09.599 HelloWorld[1460:13842] Resetting plugins due to page load.
+2015-08-22 01:18:09.604 HelloWorld[1460:13842] Failed to load webpage with error: The requested URL was not found on this server.
+2015-08-22 01:18:12.421 HelloWorld[1460:13842] Resetting plugins due to page load.
+2015-08-22 01:18:12.423 HelloWorld[1460:13842] Failed to load webpage with error: The requested URL was not found on this server.
+2015-08-22 01:31:46.789 Manifesto[1663:18563] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/chi6rag/Library/Developer/CoreSimulator/Devices/68FF5141-4B42-43BD-AA85-1F13571FD96F/data/Containers/Data/Application/42B43CD9-9124-4A25-B2B8-CB823BC43A77/Library/Cookies/Cookies.binarycookies
+2015-08-22 01:31:46.941 Manifesto[1663:18563] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-22 01:31:46.942 Manifesto[1663:18563] Multi-tasking -> Device: YES, App: YES
+2015-08-22 01:31:46.947 Manifesto[1663:18563] Unlimited access to network resources
+2015-08-22 01:31:46.949 Manifesto[1663:18563] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-08-22 01:31:48.027 Manifesto[1663:18563] Resetting plugins due to page load.
+2015-08-22 01:31:49.958 Manifesto[1663:18563] Finished load of: file:///Users/chi6rag/Library/Developer/CoreSimulator/Devices/68FF5141-4B42-43BD-AA85-1F13571FD96F/data/Containers/Bundle/Application/5D6ED3E6-049B-45D7-99AD-538DD65B3A50/Manifesto.app/www/index.html#/home
+2015-08-22 01:32:44.467 Manifesto[1718:19106] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/chi6rag/Library/Developer/CoreSimulator/Devices/68FF5141-4B42-43BD-AA85-1F13571FD96F/data/Containers/Data/Application/6D210488-7B63-41CE-9D19-B20F2F1D20BC/Library/Cookies/Cookies.binarycookies
+2015-08-22 01:32:44.601 Manifesto[1718:19106] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-22 01:32:44.601 Manifesto[1718:19106] Multi-tasking -> Device: YES, App: YES
+2015-08-22 01:32:44.627 Manifesto[1718:19106] Unlimited access to network resources
+2015-08-22 01:32:44.649 Manifesto[1718:19106] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-08-22 01:32:45.062 Manifesto[1718:19106] Resetting plugins due to page load.
+2015-08-22 01:32:45.897 Manifesto[1718:19106] Finished load of: file:///Users/chi6rag/Library/Developer/CoreSimulator/Devices/68FF5141-4B42-43BD-AA85-1F13571FD96F/data/Containers/Bundle/Application/CCAAA5FE-C6FE-42AF-8223-5A5FA8017860/Manifesto.app/www/index.html#/home
+2015-08-22 01:34:51.249 Manifesto[1773:19999] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/chi6rag/Library/Developer/CoreSimulator/Devices/68FF5141-4B42-43BD-AA85-1F13571FD96F/data/Containers/Data/Application/215872CC-064A-454F-A705-73FBFBBECF83/Library/Cookies/Cookies.binarycookies
+2015-08-22 01:34:51.349 Manifesto[1773:19999] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-22 01:34:51.349 Manifesto[1773:19999] Multi-tasking -> Device: YES, App: YES
+2015-08-22 01:34:51.355 Manifesto[1773:19999] Unlimited access to network resources
+2015-08-22 01:34:51.358 Manifesto[1773:19999] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-08-22 01:34:51.493 Manifesto[1773:19999] Resetting plugins due to page load.
+2015-08-22 01:34:51.636 Manifesto[1773:19999] Finished load of: file:///Users/chi6rag/Library/Developer/CoreSimulator/Devices/68FF5141-4B42-43BD-AA85-1F13571FD96F/data/Containers/Bundle/Application/F85528F6-CCD8-4D41-BF59-E25FB94AD183/Manifesto.app/www/index.html#/home
+2015-08-22 01:35:40.341 Manifesto[1811:20444] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/chi6rag/Library/Developer/CoreSimulator/Devices/68FF5141-4B42-43BD-AA85-1F13571FD96F/data/Containers/Data/Application/78037CD2-DD6A-4341-BF9A-D9CEBB616C2E/Library/Cookies/Cookies.binarycookies
+2015-08-22 01:35:40.446 Manifesto[1811:20444] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-22 01:35:40.446 Manifesto[1811:20444] Multi-tasking -> Device: YES, App: YES
+2015-08-22 01:35:40.448 Manifesto[1811:20444] Unlimited access to network resources
+2015-08-22 01:35:40.452 Manifesto[1811:20444] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-08-22 01:35:40.622 Manifesto[1811:20444] Resetting plugins due to page load.
+2015-08-22 01:35:40.816 Manifesto[1811:20444] Finished load of: file:///Users/chi6rag/Library/Developer/CoreSimulator/Devices/68FF5141-4B42-43BD-AA85-1F13571FD96F/data/Containers/Bundle/Application/E0FBC87D-93F6-4597-B169-674163061F21/Manifesto.app/www/index.html#/home
+2015-08-22 01:47:45.484 Manifesto[1886:22903] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/chi6rag/Library/Developer/CoreSimulator/Devices/68FF5141-4B42-43BD-AA85-1F13571FD96F/data/Containers/Data/Application/D2A6C1D4-F76A-4037-9B57-E228EDA0CC5E/Library/Cookies/Cookies.binarycookies
+2015-08-22 01:47:45.626 Manifesto[1886:22903] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-22 01:47:45.627 Manifesto[1886:22903] Multi-tasking -> Device: YES, App: YES
+2015-08-22 01:47:45.647 Manifesto[1886:22903] Unlimited access to network resources
+2015-08-22 01:47:45.665 Manifesto[1886:22903] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-08-22 01:47:46.062 Manifesto[1886:22903] Resetting plugins due to page load.
+2015-08-22 01:47:46.905 Manifesto[1886:22903] Finished load of: file:///Users/chi6rag/Library/Developer/CoreSimulator/Devices/68FF5141-4B42-43BD-AA85-1F13571FD96F/data/Containers/Bundle/Application/83F31165-9C2C-4192-9A67-22F6C30EC475/Manifesto.app/www/index.html#/home
+2015-08-22 01:48:28.105 Manifesto[1925:23331] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/chi6rag/Library/Developer/CoreSimulator/Devices/68FF5141-4B42-43BD-AA85-1F13571FD96F/data/Containers/Data/Application/B98543ED-4309-4AED-8EB0-1B4D005E3B29/Library/Cookies/Cookies.binarycookies
+2015-08-22 01:48:28.163 Manifesto[1925:23331] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-22 01:48:28.163 Manifesto[1925:23331] Multi-tasking -> Device: YES, App: YES
+2015-08-22 01:48:28.177 Manifesto[1925:23331] Unlimited access to network resources
+2015-08-22 01:48:28.180 Manifesto[1925:23331] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-08-22 01:48:28.303 Manifesto[1925:23331] Resetting plugins due to page load.
+2015-08-22 01:48:28.609 Manifesto[1925:23331] Finished load of: file:///Users/chi6rag/Library/Developer/CoreSimulator/Devices/68FF5141-4B42-43BD-AA85-1F13571FD96F/data/Containers/Bundle/Application/2664C0FE-DD24-411F-BF3A-E9B94A918627/Manifesto.app/www/index.html#/home
