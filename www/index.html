@@ -102,6 +102,22 @@
       <img src="{{manifesto.image}}" style="height: 50px" />
       Completion: {{manifesto.completion}}
       Happiness: {{manifesto.happiness}}
+      <h3>Comments</h3>
+      <div class="manifesto_{{$index}}_comments_">
+        <div ng-repeat='comment in manifesto.comments'>
+          <div class="manifesto_comment">
+            <p>
+              {{comment.author}}
+              &nbsp;&nbsp;&nbsp;&nbsp;{{comment.body}}
+            </p>
+          </div>
+        </div>
+      </div>
+      <form ng-submit="addComment()">
+        <input type="text" ng-model="author" placeholder="Author" />
+        <input type="text" ng-model="body" placeholder="Body" />
+        <input type="submit" value="Comment" />
+      </form>
     </script>
 
 	</body>
