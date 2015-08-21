@@ -11,6 +11,11 @@ app.config([
 		  	templateUrl: 'home.html',
 		  	controller: 'MainController'
 		  })
+		  .state('manifestos', {
+			  url: '/manifestos/{id}',
+			  templateUrl: '/manifestos.html',
+			  controller: 'ManifestosController'
+			});
 		$urlRouterProvider.otherwise('home')
 	}
 ]);
@@ -29,6 +34,15 @@ app.controller('MainController', [
 		$scope.incrementHappiness = function(manifesto){
 			manifesto.happiness += 1;
 		}
+	}
+]);
+
+app.controller('ManifestosController', [
+	'$scope',
+	'$stateParams',
+	'manifestos',
+	function($scope, $stateParams, manifestos){
+		$scope.manifesto = manifestos.manifestos[$stateParams.id]
 	}
 ]);
 
