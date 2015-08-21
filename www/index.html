@@ -20,13 +20,13 @@
       </div>
 
       <div ng-repeat="manifesto in manifestos | orderBy:'completion'">
-      	<img src="{{manifesto.image}}" style="height: 40px; width: 40px;" />
-        <span style="font-size:20px; margin-left:10px;">
-        	{{manifesto.name}}
-        </span>
-        <span class="glyphicon glyphicon-thumbs-up"
-          ng-click="incrementHappiness(manifesto)"></span>
-        	{{manifesto.happiness}}
+      	<a href="#/manifestos/{{$index}}">
+          <img src="{{manifesto.image}}" style="height: 50px" />
+          <span style="font-size:20px; margin-left:10px;">
+          	{{manifesto.name}}
+          </span>
+          {{manifesto.completion}}
+        </a>
       </div>
 
       <form ng-submit="addManifesto()"
@@ -41,6 +41,15 @@
         </div>
         <button type="submit" class="btn btn-primary">Create</button>
       </form>
+    </script>
+
+    <script type="text/ng-template" id="/manifestos.html">
+      <div class="page-header">
+        {{manifesto.name}}
+      </div>
+      <img src="{{manifesto.image}}" style="height: 50px" />
+      Completion: {{manifesto.completion}}
+      Happiness: {{manifesto.happiness}}
     </script>
 
 	</body>
