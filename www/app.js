@@ -60,7 +60,7 @@ app.factory('manifestos', [
 					name: "Free Wifi",
 				  organizer: 'Aam Aadmi Party',
 				  completion: 20, happiness: 20,
-				  image: 'http://images.jagran.com/naidunia/free-wifi-delhi_13_02_2015.jpg',
+				  image: 'http://res.cloudinary.com/chi6rag/image/upload/v1440221266/Manifesto/pixel77-free-vector-wifi-icon-2006-min.jpg',
 				  comments: [
 				  	{author: 'user-1', body: 'lorem ipsum dolor'},
 				  	{author: 'user-2', body: 'lorem ipsum dolor'},
@@ -71,7 +71,7 @@ app.factory('manifestos', [
 					name: "Clean Water in Every Home",
 				  organizer: 'Aam Aadmi Party',
 				  completion: 20, happiness: 10,
-				  image: 'http://images.jagran.com/naidunia/free-wifi-delhi_13_02_2015.jpg',
+				  image: 'http://i.istockimg.com/file_thumbview_approve/49454876/3/stock-illustration-49454876-water-drop-flat-icon-vector-illustration-eps10.jpg',
 				  comments: [
 				  	{author: 'user-1', body: 'lorem ipsum dolor'},
 				  	{author: 'user-2', body: 'lorem ipsum dolor'},
@@ -82,7 +82,7 @@ app.factory('manifestos', [
 					name: "Every child educated",
 				  organizer: 'Aam Aadmi Party',
 				  completion: 30, happiness: 40,
-				  image: 'http://images.jagran.com/naidunia/free-wifi-delhi_13_02_2015.jpg',
+				  image: 'http://www.tfingi.com/wp-content/uploads/2013/05/flaticon-book.jpg',
 				  comments: [
 				  	{author: 'user-1', body: 'lorem ipsum dolor'},
 				  	{author: 'user-2', body: 'lorem ipsum dolor'},
@@ -93,7 +93,7 @@ app.factory('manifestos', [
 					name: "Delhi - Drug Free",
 				  organizer: 'Aam Aadmi Party',
 				  completion: 30, happiness: 20,
-				  image: 'http://www.hindustantimes.com/Images/popup/2015/2/260215-pg01a.jpg',
+				  image: 'http://us.cdn3.123rf.com/168nwm/megawinter/megawinter1501/megawinter150102667/35423865-vector-drug-jar-flat-icon.jpg',
 				  comments: [
 				  	{author: 'user-1', body: 'lorem ipsum dolor'},
 				  	{author: 'user-2', body: 'lorem ipsum dolor'},
