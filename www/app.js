@@ -105,3 +105,19 @@ app.factory('manifestos', [
 		return o;
   }
 ]);
+
+app.factory('manifestoService', function($http) {
+  var o = {
+    getManifesto: function(id) {
+      return (
+        $http.get('http://localhost:3000/manifestos/' + id);
+      )
+    },
+    createManifesto: function(name, ) {
+      return (
+        $http.get('http://localhost:3000/manifestos/' + id);
+      )
+    }
+  };
+  return o;
+})
